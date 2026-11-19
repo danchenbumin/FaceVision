@@ -1,0 +1,18 @@
+build/
+build-*/
+.qtcreator/
+CMakeUserPresets.json
+
+# 运行时数据中包含人脸特征、样本和识别抓拍，不提交到版本库。
+data/
+faces.db
+face_samples/
+recognition_snapshots/
+environment_report.txt
+
+*.log
+*.temp
+*.user
+*.vcxproj
+*.sln
+.DS_Store
